@@ -5,7 +5,7 @@ It fit for desktop and mobile, viewpoint threshold is 768px.
 ## Devices Viewpoint
 Supporting for all device screen width, height.
 
--use CSS `@media` to toggle the class for different viewpoint.
+- use CSS `@media` to toggle the class for different viewpoint.
 
 ```
 /* For desktop: */
@@ -60,7 +60,7 @@ Supporting for all device screen width, height.
 ## Relative units
 Auto resize with the width and height change.
 
--use `em` `rem` `vw` `vh` for the font unit.
+- use `em` `rem` `vw` `vh` for the font unit.
 
 ```
 body{ 
@@ -72,11 +72,11 @@ body{
     font-size: 1.2em;       /* 120% font size according to the parent font size */
     font-size: 1.2rem;      /* 120% font size according to the root (body default) font size */
     font-size:2vw;          /* According to the screen width, set set the font size 2% */
-    font-size:2vh;			/* According to the screen height, set set the font size 2% */
+    font-size:2vh;          /* According to the screen height, set set the font size 2% */
 }
 ```
 
--use `percentage (%)` for the unit.
+- use `percentage (%)` for the unit.
 
 ```
 img {
