@@ -10,7 +10,7 @@ Supporting for all device screen width, height.
 ```
 /* For desktop: */
 @media only screen and (min-width: 769px) {
-	.col-1 {width: 8.33%;}
+    .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
     .col-4 {width: 33.33%;}
