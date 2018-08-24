@@ -60,7 +60,7 @@ Supporting for all device screen width, height.
 ## Relative units
 Auto resize with the width and height change.
 
-- use `em` `rem` `vw` `vh` for the font unit.
+- use `em` `rem` `vw` `vh` `vmin` `vmax` for the font unit.
 
 ```
 body{ 
